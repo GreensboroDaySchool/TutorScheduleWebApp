@@ -1,7 +1,19 @@
 # GDS Tutor WebApp Contribution Guidelines
 
-In order to create code that benefits all, you must follow these guidelines if you wish to contribute to the GDS Tutor
-WebApp code base, or participate in issue tracking.
+In order to create code legally as well as benefits all, you must follow these guidelines if you wish to contribute to
+the GDS Tutor WebApp code base, or participate in issue tracking.
+
+## Libraries and Templates usage
+Please place all the external libraries in individual folders under the `references` folder.
+
+Be sure to check the compatibilities of the licenses if your code contains any copied sources, and give them credits in
+[README.MD](README.MD)
+
+For example, this project contains code from [HTML5 UP](https://html5up.net), and the code copied is using
+[Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/). It is compatible with our GNU GPL v3
+license, then we could copy the whole template to the `references` folder and include HTML5 UP in README.
+
+See [GNU: License List](https://www.gnu.org/licenses/license-list.en.html)
 
 ## Front related
 
@@ -45,7 +57,7 @@ See [MDN Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Gui
 We suggest everybody to use PSR standard in PHP programming. But since most club members are new to programming, you
 don't have to check the PSR guidelines, and we suggest you to focus on front related designing.
 
-See: [PSR Basic Coding Standard](
+See [PSR Basic Coding Standard](
 https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
 
 #### NodeJs

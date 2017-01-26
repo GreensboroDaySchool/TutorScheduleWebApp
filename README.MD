@@ -55,3 +55,9 @@ of known alias we might use during the TecIntel club meeting period.
 * [Cdelli](https://github.com/Cdelli)
 * [Tony Wu](https://github.com/TonyWu1998)
 * [sdell552](https://github.com/sdell552)
+
+## Credits for external libraries
+
+* [Hyperspace](https://html5up.net)     - [HTML5 UP](https://html5up.net)
+* [jQuery](https://jquery.com)          - [The jQuery Foundation](https://jquery.org/team/)
+* [Font Awesome](http://fontawesome.io) - [Dave Gandy](https://twitter.com/davegandy)
