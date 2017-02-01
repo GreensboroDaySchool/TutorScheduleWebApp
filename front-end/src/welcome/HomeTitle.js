@@ -58,12 +58,17 @@ class HomeTitle extends React.Component {
             icon: {
                 height: 200
             },
-            startUpButton: {},
+            startUpButton: {
+
+            },
             startUpButtonIcon: {
-                color: this.themeProp("alternateTextColor"),
+                color: this.themeProp("primary1Color"),
             },
             actions: {
                 marginTop: 40
+            },
+            action: {
+                margin: 10
             }
         }
     }
@@ -77,9 +82,13 @@ class HomeTitle extends React.Component {
                     <h1 style={this.styles.header1}>{this.greetings()}</h1>
                     <h2 style={this.styles.header2}>Find someone who can help you with your academics</h2>
                     <div style={this.styles.actions}>
-                        <RaisedButton icon={
-                            <i style={this.styles.startUpButtonIcon} className="fa fa-ambulance"/>
-                        } style={this.styles.startUpButton} label="I Need Help" secondary={true}/>
+                        <div style={this.styles.action}>
+                            <RaisedButton icon={
+                                <i style={this.styles.startUpButtonIcon} className="fa fa-ambulance"/>
+                            } style={this.styles.startUpButton}
+                              label="I Need Help"
+                              labelColor={this.themeProp("primary1Color")}/>
+                        </div>
                     </div>
                 </div>
             </Paper>

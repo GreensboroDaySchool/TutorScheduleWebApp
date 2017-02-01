@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRedirect, browserHistory } from 'react-router';
 import App from './App';
-import Welcome from './home/Welcome';
+import Welcome from './welcome/Welcome';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import './index.css';
 
